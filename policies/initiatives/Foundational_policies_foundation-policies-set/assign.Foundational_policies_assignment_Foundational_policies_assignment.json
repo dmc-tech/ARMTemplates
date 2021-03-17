@@ -1,0 +1,46 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Foundational policies assignment",
+  "policyDefinitionId": "/subscriptions/357e7522-d1ad-433c-9545-7d8b8d72d61a/providers/Microsoft.Authorization/policySetDefinitions/foundation-policies-set",
+  "scope": "/subscriptions/357e7522-d1ad-433c-9545-7d8b8d72d61a/resourcegroups/policies-test",
+  "notScopes": [],
+  "parameters": {
+   "ownerTag": {
+    "value": "owner"
+   },
+   "AllowedLocations": {
+    "value": [
+     "westeurope",
+     "northeurope",
+     "francecentral",
+     "francesouth"
+    ]
+   }
+  },
+  "description": "",
+  "metadata": {
+   "assignedBy": "daniel.mcdermott@avanade.com",
+   "parameterScopes": {
+    "AllowedLocations": "/subscriptions/357e7522-d1ad-433c-9545-7d8b8d72d61a/resourcegroups/policies-test"
+   },
+   "createdBy": "450afe4f-29b4-4b10-ab4d-8a8cfeda70b3",
+   "createdOn": "2021-03-17T14:23:18.6196426Z",
+   "updatedBy": "450afe4f-29b4-4b10-ab4d-8a8cfeda70b3",
+   "updatedOn": "2021-03-17T14:37:18.4372182Z"
+  },
+  "enforcementMode": "DoNotEnforce"
+ },
+ "identity": {
+  "principalId": "bb09bc6c-a31a-4ccf-9bde-2f53685ba0ba",
+  "tenantId": "a26def89-f7e6-4496-b4cb-7ffee9ddbabf",
+  "type": "SystemAssigned"
+ },
+ "id": "/subscriptions/357e7522-d1ad-433c-9545-7d8b8d72d61a/resourcegroups/policies-test/providers/Microsoft.Authorization/policyAssignments/Foundational policies assignment",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "Foundational policies assignment",
+ "location": "westeurope"
+}
