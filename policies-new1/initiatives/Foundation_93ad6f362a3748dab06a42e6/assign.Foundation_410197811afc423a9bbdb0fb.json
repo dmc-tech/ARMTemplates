@@ -1,0 +1,32 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Foundation",
+  "policyDefinitionId": "/subscriptions/1871c43c-322b-4a95-8722-fe35b4daa1a3/providers/Microsoft.Authorization/policySetDefinitions/93ad6f362a3748dab06a42e6",
+  "scope": "/subscriptions/1871c43c-322b-4a95-8722-fe35b4daa1a3/resourceGroups/policy-test",
+  "notScopes": [],
+  "parameters": {},
+  "description": "",
+  "metadata": {
+   "assignedBy": "Danny McDermott",
+   "parameterScopes": {},
+   "createdBy": "2962707f-b211-42da-936b-4f29989d0a06",
+   "createdOn": "2021-03-17T09:02:00.9390646Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "identity": {
+  "principalId": "30345ff4-68c8-4fe2-ac32-563e7092f1a7",
+  "tenantId": "f8cebd6e-bbe1-4a80-811c-60fe7c46e8bc",
+  "type": "SystemAssigned"
+ },
+ "id": "/subscriptions/1871c43c-322b-4a95-8722-fe35b4daa1a3/resourceGroups/policy-test/providers/Microsoft.Authorization/policyAssignments/410197811afc423a9bbdb0fb",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "410197811afc423a9bbdb0fb",
+ "location": "eastus"
+}
